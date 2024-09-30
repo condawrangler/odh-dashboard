@@ -22,6 +22,6 @@ export class K8sNameDescriptionField extends SubComponentBase {
   }
 
   findResourceNameInput(): Cypress.Chainable<JQuery<HTMLElement>> {
-    return this.findByScopedTestId('resourceName');
+    return this.findByScopedTestId('name');
   }
 }

@@ -525,7 +525,7 @@ describe('Serving Runtime List', () => {
 
       projectDetails.visitSection('test-project', 'model-server');
 
-      modelServingSection.getServingPlatformCard('single-serving').findDeployModelButton().click();
+      modelServingSection.getServingPlatformCard('').findDeployModelButton().click();
 
       kserveModal.shouldBeOpen();
 
